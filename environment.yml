@@ -1,0 +1,21 @@
+name: simplex
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - plotly
+  - python=3.11
+  - pytorch=2.4
+  - scipy
+  - torchaudio
+  - torchvision
+  - tqdm
+  - h5py
+  - scikit-learn
+  - pip
+  - pip:
+	- transformer_lens
