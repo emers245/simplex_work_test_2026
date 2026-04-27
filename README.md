@@ -1,6 +1,6 @@
-# Simplex Work Test - 2026
+# Mixed Mess3 Belief-State Geometry
 
-This code repository is for Joe's MATS Summer 2026 Simplex stream work test.
+How does a simple transformer model track belief state geometry when multiple Mess3 processes have generated the training data? This repository establishes a conjecture about the dimensionality of the latent belief state geometry in the residual stream, then tests this using a simple training set that uses two separate Mess3 processes to generate sequence data for training.
 
 ## Set-up
 
@@ -25,8 +25,8 @@ mess3.py -
 
 ## Files
 
-MATS_Summer_2026__Simplex_Work_Test.pdf -
-  A PDF write-up of the work test
+Mult_Mess3_BSG.pdf -
+  A PDF write-up of predictions and results.
 
 process_*_data.h5 -
   Some stored sequence data from the Mess3 processes
